@@ -13,13 +13,13 @@
 		F818D21325CE99F200CFB984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F818D21125CE99F200CFB984 /* Main.storyboard */; };
 		F818D21525CE99F300CFB984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F818D21425CE99F300CFB984 /* Assets.xcassets */; };
 		F818D21825CE99F300CFB984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F818D21625CE99F300CFB984 /* LaunchScreen.storyboard */; };
-		F820F82D25D9382000116504 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820F82C25D9382000116504 /* Extensions.swift */; };
 		F820F83125D93F2900116504 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820F83025D93F2900116504 /* LoginController.swift */; };
 		F820F83525D93F9B00116504 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820F83425D93F9B00116504 /* RegistrationController.swift */; };
 		F820F83825D94F1400116504 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820F83725D94F1400116504 /* Utilities.swift */; };
 		F820F83B25DB055300116504 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F820F83A25DB055300116504 /* GoogleService-Info.plist */; };
 		F899EABC25DEA4CB00FAA6E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F899EABB25DEA4CB00FAA6E2 /* Constants.swift */; };
 		F899EABF25E43A1400FAA6E2 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F899EABE25E43A1400FAA6E2 /* AuthService.swift */; };
+		F899EAC325E4F3A600FAA6E2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F899EAC225E4F3A600FAA6E2 /* Extensions.swift */; };
 		F8E420E525D3BBE40052E466 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E420E425D3BBE40052E466 /* MainTabController.swift */; };
 		F8E420E825D486BB0052E466 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E420E725D486BB0052E466 /* FeedController.swift */; };
 		F8E420EB25D486FA0052E466 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E420EA25D486FA0052E466 /* ExploreController.swift */; };
@@ -38,13 +38,13 @@
 		F818D21425CE99F300CFB984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F818D21725CE99F300CFB984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F818D21925CE99F300CFB984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F820F82C25D9382000116504 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../Downloads/Extensions.swift; sourceTree = "<group>"; };
 		F820F83025D93F2900116504 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		F820F83425D93F9B00116504 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		F820F83725D94F1400116504 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		F820F83A25DB055300116504 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F899EABB25DEA4CB00FAA6E2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F899EABE25E43A1400FAA6E2 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		F899EAC225E4F3A600FAA6E2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F8E420E425D3BBE40052E466 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		F8E420E725D486BB0052E466 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
 		F8E420EA25D486FA0052E466 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
@@ -173,9 +173,9 @@
 		F8E420E225D3BB800052E466 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				F820F82C25D9382000116504 /* Extensions.swift */,
 				F820F83725D94F1400116504 /* Utilities.swift */,
 				F899EABB25DEA4CB00FAA6E2 /* Constants.swift */,
+				F899EAC225E4F3A600FAA6E2 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -299,11 +299,11 @@
 				F8E420F125D4871C0052E466 /* ConversationsController.swift in Sources */,
 				F820F83825D94F1400116504 /* Utilities.swift in Sources */,
 				F818D20C25CE99F200CFB984 /* AppDelegate.swift in Sources */,
-				F820F82D25D9382000116504 /* Extensions.swift in Sources */,
 				F820F83125D93F2900116504 /* LoginController.swift in Sources */,
 				F899EABF25E43A1400FAA6E2 /* AuthService.swift in Sources */,
 				F8E420EB25D486FA0052E466 /* ExploreController.swift in Sources */,
 				F818D20E25CE99F200CFB984 /* SceneDelegate.swift in Sources */,
+				F899EAC325E4F3A600FAA6E2 /* Extensions.swift in Sources */,
 				F8E420E525D3BBE40052E466 /* MainTabController.swift in Sources */,
 				F820F83525D93F9B00116504 /* RegistrationController.swift in Sources */,
 				F8E420E825D486BB0052E466 /* FeedController.swift in Sources */,
